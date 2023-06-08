@@ -1,0 +1,46 @@
+.contact-icons {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  margin-left: -0.5rem;
+}
+.contact-header {
+  padding-bottom: 5px;
+  width: 3.5rem;
+  display: flex;
+  border-bottom: 2px solid rgba(255, 255, 255, 0.1);
+  overflow: visible;
+}
+.contact-text {
+  font-size: small;
+  cursor: pointer;
+}
+.about-header {
+  padding-bottom: 5px;
+  width: 2rem;
+  display: flex;
+  border-bottom: 2px solid rgba(255, 255, 255, 0.1);
+}
+.about-p {
+  font-size: 12px;
+  width: 25rem;
+  padding-top: 1px;
+  line-height: 1.5rem;
+}
+.help-links {
+  margin-top: 7px;
+  padding: 1px;
+  cursor: pointer;
+}
+.help-links:hover,
+.contact-text:hover {
+  text-decoration: underline;
+}
+.social-media-text {
+  word-spacing: 2px;
+  font-size: medium;
+}
+.social-media {
+  display: flex;
+  gap: 5px;
+}

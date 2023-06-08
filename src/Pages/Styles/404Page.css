@@ -1,0 +1,12 @@
+.err-img {
+  padding: 10px;
+  width: 200px;
+  height: 250px;
+  object-fit: cover;
+}
+.error-code {
+  font-size: 150px;
+}
+.error-message {
+  font-size: 50px;
+}

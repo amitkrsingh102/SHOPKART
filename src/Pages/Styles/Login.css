@@ -1,0 +1,97 @@
+.form-input {
+  padding: 10px 20px;
+  height: 40px;
+  width: 100%;
+  background-color: transparent;
+  color: white;
+  border: 1px solid white;
+  border-radius: 20px;
+}
+.form-input::placeholder {
+  text-align: center;
+}
+.form-input:focus {
+  outline: 1px solid grey;
+}
+.form-btn {
+  width: 100%;
+  padding: 10px;
+  border: 3px solid white;
+  cursor: pointer;
+  border-radius: 20px;
+  transition: 300ms ease-in-out;
+}
+.form-btn:hover {
+  border: 3px solid green;
+}
+.welcome-section {
+  padding: 10px;
+}
+.welcome-heading {
+  padding: 15px;
+  text-align: center;
+}
+.welcome-msg {
+  padding: 15px 25px;
+  line-height: 22px;
+}
+.welcome-section {
+  color: white;
+}
+.fileInput:hover {
+  cursor: pointer;
+}
+.error-text {
+  width: 170px;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 20px;
+  padding: 5px 7px;
+  background-color: rgb(65, 17, 17);
+  color: rgb(255, 55, 55);
+  font-size: 10px;
+}
+.actor {
+  animation: kenburns 30s linear infinite;
+  background-size: cover;
+  background-position: 50%;
+  height: 91vh;
+  inset: 0;
+  opacity: 0;
+  position: absolute;
+  scale: 1.2;
+  width: 90.7vw;
+  z-index: 0;
+}
+
+.actor:nth-child(1) {
+  /* background-image: url("https://images.unsplash.com/photo-1504221507732-5246c045949b?crop=entropy&cs=tinysrgb&fm=jpg&ixid=MnwzMjM4NDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2NzQ2OTA1MjE&ixlib=rb-4.0.3&q=80"); */
+  background-image: url("../../assets/HighDefinationPics/loginImg1.jpg");
+}
+.actor:nth-child(2) {
+  animation-delay: 10s;
+  /* background-image: url("https://images.unsplash.com/photo-1595131838595-3154b9f4450b?crop=entropy&cs=tinysrgb&fm=jpg&ixid=MnwzMjM4NDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2NzQ2OTA1MjE&ixlib=rb-4.0.3&q=80"); */
+  background-image: url("../../assets/HighDefinationPics/loginImg2.jpg");
+}
+.actor:nth-child(3) {
+  animation-delay: 20s;
+  /* background-image: url("https://images.unsplash.com/photo-1618331835717-801e976710b2?crop=entropy&cs=tinysrgb&fm=jpg&ixid=MnwzMjM4NDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2NzQ2OTA1NjU&ixlib=rb-4.0.3&q=80"); */
+  background-image: url("../../assets/HighDefinationPics/loginImg3.jpg");
+}
+
+@keyframes kenburns {
+  25% {
+    opacity: 1;
+  }
+
+  50% {
+    opacity: 0.8;
+    /* scale: 1; */
+  }
+
+  60% {
+    opacity: 0;
+  }
+}

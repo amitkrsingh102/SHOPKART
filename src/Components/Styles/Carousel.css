@@ -1,0 +1,21 @@
+.image-container {
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 2rem;
+  border-radius: 20px;
+  overflow: hidden;
+  width: 27rem;
+  transition: ease-out 500ms;
+}
+.image {
+  height: 36rem;
+  width: 25rem;
+  object-fit: cover;
+  border: 1px solid grey;
+  border-radius: 10px;
+}
+.image:hover {
+  cursor: pointer;
+}

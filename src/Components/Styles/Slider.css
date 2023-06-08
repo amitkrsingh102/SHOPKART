@@ -1,0 +1,49 @@
+.slider {
+  height: 650px;
+  width: 100vw;
+  position: relative;
+  margin-bottom: -50px;
+}
+.slider-container {
+  width: 300vw;
+  height: 100%;
+  display: flex;
+  transition: all 1s ease;
+}
+img {
+  width: 100vw;
+  height: 100%;
+  object-fit: cover;
+}
+.icons {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 40px;
+  margin: auto;
+  width: fit-content;
+  display: flex;
+  gap: 10px;
+}
+.icon {
+  height: 40px;
+  width: 50px;
+  border: 1px solid #cccccc;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  cursor: pointer;
+  transition: 250ms ease-in-out;
+}
+.left:hover {
+  box-shadow: -10px 5px 5px rgba(0, 0, 0, 0.5);
+}
+.right:hover {
+  box-shadow: 10px 5px 5px rgba(0, 0, 0, 0.5);
+}
+.icon:hover {
+  /* color: black; */
+  background: rgba(215, 215, 215, 0.3);
+  border: 1px solid white;
+}
