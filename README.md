@@ -76,4 +76,4 @@ This project is licensed under the [MIT License](LICENSE).
    -   TypeScript: https://www.typescriptlang.org/
    -   Firebase: https://firebase.google.com/
    -   Material-UI: https://material-ui.com/
-    - Vite: https://vitejs.dev/
+   -   Vite: https://vitejs.dev/
